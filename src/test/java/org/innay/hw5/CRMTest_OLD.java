@@ -1,4 +1,4 @@
-package org.innay;
+package org.innay.hw5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
@@ -16,14 +16,14 @@ import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 
-public class CRMTest {
+public class CRMTest_OLD {
 
     private static ChromeOptions chromeOptions;
     private WebDriver driver;
     private WebDriverWait wait;
     private WebElement mainMenu;
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CRMTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CRMTest_OLD.class);
 
     @BeforeAll
     public static void runBeforeAllTests() {
